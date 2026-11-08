@@ -1,9 +1,11 @@
 
-function Skills({name, surname, job_title}) {
+function Skills(props) {
     return (
         <>
-        <h1>{name} {surname}</h1>
-        <p>{job_title}</p>
+        <h2>Competenze</h2>
+        <ul>
+        {props.skills.map((skill) => <li key={skill}>{skill}</li>)}
+        </ul>
         </>
     )
 }

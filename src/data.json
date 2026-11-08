@@ -8,8 +8,26 @@
 "address": "Somewhere Boulevard 1, 12345, SomeCity"
 },
 "skills": [
-"Communication",
-"Precision",
+"Comunicazione",
+"Precisione",
 "Problem Solving"
+],
+"jobs": [
+{"title": "Impiegato",
+"contract_type": "Contratto in somministrazione",
+"employer": "Agenzia per il lavoro",
+"workplace": "Ufficio Pratiche",
+"job_start": "2024",
+"job_end": "2025",
+"tasks": [
+"Fare fotocopie",
+"Scrivere email",
+"Attività di back-office"
 ]
+}
+],
+"qualifications": {
+"2026": ["EIPASS", "Cambridge First B2"],
+"2025": ["DELF"]
+}
 }
