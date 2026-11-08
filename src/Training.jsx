@@ -1,12 +1,12 @@
 
 function Training(props) {
     return (
-        <>
-        <h2>{props.year}</h2>
+        <div>
+        <h3>{props.year}</h3>
         <ul>
         {props.qualifications.map((certificate) => <li key={certificate}>{certificate}</li>)}
         </ul>
-        </>
+        </div>
     )
 }
 

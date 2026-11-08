@@ -1,8 +1,8 @@
 
 function Job({title, address, contract_type, employer, workplace, job_start, job_end, tasks}) {
     return (
-        <>
-        <h2>{title}</h2>
+        <div className="margin-l">
+        <h3>{title}</h3>
         <p>{contract_type}</p>
         <p>Somministratore: {employer}</p>
         <p>Utilizzatore: {workplace}</p>
@@ -11,7 +11,7 @@ function Job({title, address, contract_type, employer, workplace, job_start, job
         <ul>
         {tasks.map((task) => <li key={task}>{task}</li>)}
         </ul>
-        </>
+        </div>
     )
 }
 

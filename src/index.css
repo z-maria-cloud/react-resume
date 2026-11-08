@@ -1,0 +1,61 @@
+
+:root {
+    --main-color: #446530;
+}
+
+body {
+    margin: 0 5%;
+    border-style: none double;
+    border-color: var(--main-color);
+    border-width: 6px;
+    padding: 5% 15%;
+}
+
+ul {
+    margin: 0;
+}
+
+h1, h2, h3 {
+    color: var(--main-color);
+    font-family: "Libre Baskerville", serif;
+}
+
+p, li, ul {
+    font-family: "Montserrat", sans-serif;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.3rem;
+}
+
+h2 {
+    font-size: 1.3rem;
+}
+
+h3 {
+    font-size: 1rem;
+    margin-bottom: 0.3rem;
+}
+
+p, li {
+    margin: 0;
+    font-size: 0.9rem;
+}
+
+div {
+    margin-bottom: 3rem;
+}
+
+.color {
+    color: var(--main-color);
+}
+
+.bold {
+    font-weight: 500;
+}
+
+.subtitle {
+    font-size: 1.5rem;
+}
+
