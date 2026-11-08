@@ -1,9 +1,15 @@
-import { useState } from 'react'
+import Data from './data.json'
 import './App.css'
+
+import ResumeTitle from './ResumeTitle.jsx'
+import ContactInfo from './ContactInfo.jsx'
 
 function App() {
   return (
-      <p>Test</p>
+    <>
+      <ResumeTitle {...Data.contact_info}/>
+      <ContactInfo {...Data.contact_info}/>
+    </>
   )
 }
 

@@ -1,0 +1,15 @@
+{
+"contact_info": {
+"name": "Name",
+"surname": "Surname",
+"job_title": "Senior Employee",
+"cellphone": "+123456789",
+"email": "someaddress@email.something",
+"address": "Somewhere Boulevard 1, 12345, SomeCity"
+},
+"skills": [
+"Communication",
+"Precision",
+"Problem Solving"
+]
+}
